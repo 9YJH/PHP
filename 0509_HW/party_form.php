@@ -14,8 +14,8 @@
     <font size=3>
     <br/>
     資管晚夜開跑啦~~</br>
-    活動時間為12/30(五) 18:30-22:00 </br> 
-    除了有好吃甜點外還有精彩的表演和遊戲，參與者皆會獲得精美獎品唷!請大家踴躍報名參加!!</br>
+    活動時間為12/30(五) 18:00-21:00 </br> 
+    有超好吃的甜點跟小獎品！請大家踴躍報名參加!!</br>
     </font>
     <p>
 </body>
@@ -37,21 +37,7 @@
     一同參與人數：<input type="number" name="sNumber" placeholder="若沒有免填" ><br/>
     一同參與人的學號、姓名：<input type="text" name="sName1" value="" placeholder="若沒有免填"  ></br>
     <P>
-    精美獎品三選一：
-    <input type="radio" name="sGift" value="小盆栽">小盆栽
-    <input type="radio" name="sGift" value="可愛吊飾" checked>可愛吊飾
-    <input type="radio" name="sGift" value="手機架">手機架
-    <br/>
-    有興趣的遊戲(可多選)：<br/>
-    <select name="sGame[]" multiple>
-        <option value="比手畫腳">比手畫腳
-        <option value="尋找海尼根" >尋找海尼根
-        <option value="支援最前線">支援最前線
-        <option value="默契考驗">默契考驗
-        <option value="猜歌遊戲">猜歌遊戲
     </select>
-    </br>
-    對本次活動的期待程度：<input type="range" name="sPercent"><br/>
     <p>
     E-mail：<input type="email" name="sEmail" placeholder="請留下學校的信箱"><br/>
     你的寶貴意見是對我們最大的支持：<br/>
