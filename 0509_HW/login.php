@@ -12,7 +12,7 @@
         if(isset($_COOKIE["userName"])){
             echo $_COOKIE["userName"]."歡迎回來!!<br/>";
         }else{
-        echo "初次見面!你好哇!!<br/>";
+        echo "初次登入成功！！<br/>";
         }
     }
     echo "歡迎進入高雄大學資管系系網<br/>";
