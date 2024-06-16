@@ -24,16 +24,6 @@
         echo "一同參與人的學號、姓名：".$sName1."<br/>";
     }
 
-    $sGift=$_POST["sGift"];
-    echo "精美獎品：".$sGift."<br/>";
-    $sGame=$_POST["sGame"];
-    echo "有興趣的遊戲：";
-    foreach($sGame as $value){
-        echo $value." ";
-    }
-    echo "<br/>";
-    $sPercent=$_POST["sPercent"];
-    echo "對本次活動的期待程度：".$sPercent."%<br/>";
     $sEmail=$_POST["sEmail"];
     echo "E-mail：".$sEmail."<br/>";
     $sComment=$_POST["sComment"];
