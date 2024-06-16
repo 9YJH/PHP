@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介紹</title>
+    <style>
+        body {
+            background-color: #f3f3f3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+        }
+        hr {
+            border: 1px solid #000000;
+            margin: 20px 0;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* 正圓形外框 */
+            border: 5px solid rgb(255, 188, 230); /* 加粗外框並改成白色 */
+            object-fit: cover; /* 保持圖片內容不變形 */
+        }
+        .info {
+            line-height: 1.6;
+        }
+        .info dt {
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .info dt::before {
+            content: "❤";
+            color: rgb(255, 188, 230);
+            margin-right: 5px;
+        }
+        .info dd {
+            margin: 0 0 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        td {
+            background-color: #ffffff;
+        }
+        .education-level {
+            width: 20%; /*調整學歷欄位的寬度*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br><br><br><br>
+        <h1>自我介紹</h1>
+        <hr>
+        <div class="photo">
+            <img src="photo.jpg" alt="photo">
+        </div>
+        <dl class="info">
+            <dt>姓名：郭宜嘉</dt>
+            <br>
+            <dt>生日：2003/12/08</dt>
+            <br>
+            <dt>性別：女</dt>
+            <br>
+            <dt>MBTI：INFP</dt>
+            <br>
+        </dl>
+        <h3><font size="4" color="#000000">就學經歷</font></h3>
+        <table border="1">
+            <tr>
+                <th class="education-level">學歷</th>
+                <th>學校</th>
+            </tr>
+            <tr>
+                <td>國小</td>
+                <td>安平國小</td>
+            </tr>
+            <tr>
+                <td>國中</td>
+                <td>金城國中</td>
+            </tr>
+            <tr>
+                <td>高中</td>
+                <td>台南二中</td>
+            </tr>
+            <tr>
+                <td>大學</td>
+                <td>高雄大學</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
